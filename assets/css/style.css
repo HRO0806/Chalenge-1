@@ -8,6 +8,15 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,15 +48,6 @@ body {
 .header li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 .hero {
@@ -100,53 +100,22 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-.product-lead {
+.product-sections {
     margin-bottom: 32px;
     color: #ffffff;
+
 }
 
-.product-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.product-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.product-lead h3 {
+.product-sections h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.product-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.product-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.product-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.product-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.product-cost img {
+.product-sections img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
